@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Scrollytelling Poems</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Figures of Change: Charting the Course to Gender Equity</h1>
+    </header>
+    <main class="wrapper">
+      <div class="left-column">
+        <div class="left-column-content">
+          <!-- TODO Add filler verse divs so that the content is centered vertically even at the start -->
+          <div class="filler-verse"></div>
+          
+          <ul class="verse" id="verse1">
+             <!--need to work line as an example on line instead -->
+<!--<li class="line" id="line1">Roses are <span class="red-span">red</span></li> --->
+            <li class="line" id="line1">Voices rise in power's space,</li>
+            <li class="line" id="line2">Women's echoes find their place.</li>
+            <li class="line" id="line3"><span class="Switzerland-span">Thirty-nine point eight </span>, they sit in rows,</li>
+            <li class="line" id="line4">Progress marches, as it goes.</li>
+          </ul>
+
+          <ul class="verse" id="verse2">
+            <li class="line" id="line1">In fields of <em>work</em>, toil is shared,</li>
+            <li class="line" id="line2"><span class="Sweden-span"><em>Sixty-one point seven,</em></span>  with <span class="Norway-span"><em>seventy-two</em></span> compared.</li>
+            <li class="line" id="line3">World-shaped by hands, firm and linked,</li>
+            <li class="line" id="line4">Unity stands, no one blinked.</li>
+          </ul>
+
+          <ul class="verse" id="verse3">
+            <li class="line" id="line1">Light of learning, clearly bright,</li>
+            <li class="line" id="line2"><span class="Switzerland-span">Ninety-six point nine</span> holding tight.</li>
+            <li class="line" id="line3">Wisdom's path, claimed the same,</li>
+            <li class="line" id="line4"><span class="Switzerland-span">Ninety-seven point five</span>, almost in name.</li>
+          </ul>
+
+          <ul class="verse" id="verse4">
+            <li class="line" id="line1">Numbers spin a closing tale,</li>
+            <!--  TODO make the word red clickable -->
+            <li class="line" id="line2">Steps toward fairness, without fail.</li>
+            <li class="line" id="line3">A path to justice, drawn with care,</li>
+            <li class="line" id="line4">Balance crafted, truly fair.</li>
+          </ul>
+
+          <!-- TODO add a fifth verse --> 
+
+        <ul class="verse" id="verse5">
+          <li class="line" id="line1">Data's rhythm tells the bind,</li>
+          <li class="line" id="line2">Parity's progress, not behind.</li>
+          <li class="line" id="line3">In clear figures, plainly seen,</li>
+          <li class="line" id="line4">Hopeful future, equality's dream.</li>
+      </ul>
+
+          <div class="filler-verse"></div>
+          
+        </div>
+      </div>
+      <div class="right-column">
+        <svg id="svg"></svg>
+      </div>
+    </main>
+    <footer>
+      <button class="arrow-button" id="backward-button">◄</button>
+      <button class="arrow-button" id="forward-button">►</button>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
