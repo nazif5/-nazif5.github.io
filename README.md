@@ -26,7 +26,7 @@ project-folder/
 ```
 
 ## Installation and Setup
-This is a d3.js web interface. You should go to [Link](nazif5.github.io) for the implementation.
+This is a d3.js web interface. You should go to [Link](https://nazif5.github.io/) for the implementation.
 
 ## Data Description
 - `F_Labour_force.json`, `M_Labour_force.json`: Data related to labor force by gender.
